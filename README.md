@@ -1,5 +1,8 @@
 ## Listeria
 
-### Data Preprocessing
-1. Listeria_01_Extract Data :  parquet 데이터에서 식품종류(74가지)에서 검출이 된 수입/국내 식품종류(19가지)만 추출하여 tf_filtered 로 저장
-2. ///
+### Data Preprocessing & predict
+1. 수입식품은 제외
+2. 주소 데이터 master level에서 정리 필요
+3. LIMS 데이터로 모델링
+4. 기후정보 timeseries 데이터로 모델링
+5. 3/4번 예측확률(softmax)를 사용하여 최종 예측 모델 완성 
